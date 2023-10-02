@@ -1,0 +1,61 @@
+#titulo {
+    /*border: 5px darkolivegreen solid;*/
+    font-family: cursive;
+    font-size: 50px;
+    color: #0ee;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 5px 5px;
+}
+img.g{
+    border-radius: 2rem;
+}
+p.descripcion {
+    text-align: center;
+    color: salmon
+}
+a.inicio{
+    color:gold
+}
+a.gmail{
+    
+    color:yellowgreen
+}
+a.gmail:hover{
+    color:violet;
+}
+a.gamil::before{
+    color: #000;
+}
+*{
+    font-size: 20px;
+}
+h2.p {
+    /*opacity: 0.3; */
+    height: 100px;
+    background-image: url("img/spiner.png");
+    
+    background-size: contain;
+}
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #1da851;
+}
+
+.whatsapp-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
